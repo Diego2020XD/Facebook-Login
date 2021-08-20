@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="css/estilos.css">
 <link type="x/icon" rel="icon" href="icon/facebook logo.png">
 <meta charset="utf-8">
+<meta name="viewport" content="Width=device-width, initial-scale=1, maximum-scale=1" user-scalable=no/>
 </head>
 <body>
 
@@ -38,7 +39,7 @@ if (empty($user)) {
    <input style="margin-top:20px;" class="input-text" type="text" name="user" placeholder="Correo electronico o numero de telefono"><br/><br/>
    <input class="input-text" type="password" name="password" placeholder="Contraseña"> <br/><br/>
 
-   <input class="button-enviar" type="submit" value="Entrar">
+   <input class="button-enviar" type="submit" value="Iniciar sesion">
 
   </form>
   <br/>
